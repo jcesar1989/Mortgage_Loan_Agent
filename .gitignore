@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+loans.db-shm
+loans.db-wal
