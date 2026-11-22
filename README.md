@@ -1,5 +1,7 @@
 # Mortgage Loan Agent
 
+> **Deliverables:** [`Mortgage_Loan_Agent_Demo.pptx`](Mortgage_Loan_Agent_Demo.pptx) (class presentation) · [`Mortgage_Loan_Agent_Project_Document.pdf`](Mortgage_Loan_Agent_Project_Document.pdf) (project document)
+
 A small AI agent that answers plain-English questions about a fictional mortgage-loan portfolio. A local Llama model (running through [Ollama](https://ollama.com)) reads your question, decides which of two analysis tools to call, runs it against a SQLite database, and explains the result in ordinary English.
 
 Everything runs locally — no API keys, no cloud services, and all loan data is fictional.
