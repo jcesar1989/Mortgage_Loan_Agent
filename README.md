@@ -68,9 +68,9 @@ The output shows each step so you can see what the agent did:
 [Question] How many loans are overdue?
 
 [Tool call] run_sql({"query": "SELECT COUNT(*) FROM loans WHERE status = 'Overdue'"})
-[Tool result] {"columns": ["COUNT(*)"], "rows": [[17]]}
+[Tool result] {"columns": ["COUNT(*)"], "rows": [[15]]}
 
-[Answer] There are 17 overdue loans in the portfolio.
+[Answer] There are 15 overdue loans in the portfolio.
 ```
 
 ## The data
@@ -88,7 +88,7 @@ The `loans` table has 100 fictional mortgages with these columns:
 | `days_past_due` | integer | 0, 30, 60, 90, or 120 |
 | `status` | text | `Current`, `Overdue`, or `Paid Off` |
 
-Roughly 75% of loans are Current, 17% Overdue, and 8% Paid Off.
+80% of loans are Current, 15% Overdue, and 5% Paid Off.
 
 ## The two tools
 
